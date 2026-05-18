@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap');
 
 @theme inline {
   --font-display: 'Playfair Display', Georgia, serif;
@@ -38,7 +37,7 @@
   --color-ring: var(--ring);
   --color-ring-offset-background: var(--background);
 
-  /* Brand semantic tokens — kept names for compatibility, remapped to warm palette */
+  /* Brand semantic tokens */
   --color-navy: var(--navy);
   --color-navy-deep: var(--navy-deep);
   --color-navy-darkest: var(--navy-darkest);
@@ -102,7 +101,7 @@
   --input: oklch(0.88 0.02 40);
   --ring: var(--gold);
 
-  /* Gradients & shadows — wine + rose */
+  /* Gradients & shadows */
   --gradient-hero: linear-gradient(135deg, oklch(0.34 0.09 17) 0%, oklch(0.48 0.10 18) 100%);
   --gradient-navy: linear-gradient(180deg, oklch(0.34 0.09 17) 0%, oklch(0.28 0.08 17) 100%);
   --shadow-card: 0 4px 20px -8px oklch(0.34 0.09 17 / 0.15);
